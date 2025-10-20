@@ -5,6 +5,8 @@ import { Exercise4 } from "../ex1/component/excercise4"
 import { Exercise5 } from "../ex1/component/excercise5"
 import { Exercise6 } from "../ex1/component/excercise6"
 import { Exercise7 } from "../ex1/component/excercise7"
+import { Exercise4_ } from "../ex2/excercise4_"
+
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Exercise5 />
       <Exercise6 />
       <Exercise7 />
+      <Exercise4_/>
+      
       </>
   )
 }
