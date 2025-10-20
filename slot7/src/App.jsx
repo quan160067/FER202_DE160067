@@ -6,9 +6,9 @@ export default function App() {
   return (
     <>
     <Exercise5 />
-
-     <Banner />
-     <Navbar />
+<Banner />
+<Navbar />
+     
     </>
   );
 }
