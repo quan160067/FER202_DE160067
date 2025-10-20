@@ -1,5 +1,5 @@
 export function Exercise5() {
-  // Mảng danh sách người
+ 
   const people = [
     { name: "Ann", age: 19 },
     { name: "Khanh", age: 22 },
@@ -8,7 +8,7 @@ export function Exercise5() {
     { name: "Tam", age: 25 }
   ];
 
-  // Lọc tuổi từ 13–19 và map sang chuỗi "Tên (Tuổi)"
+  
   const teens = people
     .filter(p => p.age >= 13 && p.age <= 19)
     .map(p => `${p.name} (${p.age})`);
