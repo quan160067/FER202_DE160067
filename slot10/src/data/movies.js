@@ -1,0 +1,32 @@
+export const movies = [
+  {
+    id: 1,
+    title: "Galactic Wars",
+    poster: "/images/movie1.jpg",
+    description: "A space opera about intergalactic conflict.",
+    year: 2022,
+    country: "USA",
+    genre: "Sci-Fi",
+    duration: 132,
+  },
+  {
+    id: 2,
+    title: "Laugh Out Loud",
+    poster: "/images/movie2.jpg",
+    description: "A comedy about friends trying to make it in a small town.",
+    year: 2021,
+    country: "UK",
+    genre: "Comedy",
+    duration: 105,
+  },
+  {
+    id: 3,
+    title: "Deep Blue",
+    poster: "/images/movie3.jpg",
+    description: "A survival drama set in the middle of the ocean.",
+    year: 2019,
+    country: "Australia",
+    genre: "Drama",
+    duration: 118,
+  },
+];
